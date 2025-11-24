@@ -1,15 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Course Module 3 Assignment</title>
-    <link rel="stylesheet" href="css" />
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food LLC Menu</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
- <div class="container-fluid nav-bar">
-    <h1>Food, LLC</h1>
-</div>   
-    <p></p>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default visible-xs">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Food LLC</a>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="collapse navbar-collapse" id="mobile-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#beef">Beef</a></li>
+        <li><a href="#sushi">Sushi</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Desktop/Tablet Navbar -->
+<div class="hidden-xs navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Food LLC</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page Heading -->
+<div class="container text-center">
+    <h1>Our Menu</h1>
+</div>
+
+<!-- Tall Section -->
+<div class="container-fluid tall-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <!-- Lots of dummy text to make the section tall -->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo eget felis facilisis fermentum. 
+                Cras sit amet nibh libero. Suspendisse potenti. Mauris vel erat ut mi elementum facilisis...
+            </p>
+            <p>
+                (Repeat or add more content to ensure scrolling)
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Optional: Section Anchors for Mobile Menu -->
+<div id="chicken"></div>
+<div id="beef"></div>
+<div id="sushi"></div>
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
