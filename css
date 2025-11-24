@@ -1,22 +1,50 @@
-/* Background color for the tall section */
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar background color */
+.navbar-default {
+    background-color: #007BFF; /* blue background */
+    border-color: #007BFF;
+}
+
+/* Remove brand text color change on hover */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+/* Page heading */
+.page-heading {
+    text-align: center; /* center the heading */
+    margin: 40px 0;
+}
+
+/* Tall section styling */
 .tall-section {
-    background-color: #f0f0f0; /* Light grey background */
-    min-height: 1000px; /* Tall enough for scrolling */
-    padding: 20px;
+    background-color: #f0f0f0; /* distinguishable background */
+    min-height: 1000px; /* tall enough to scroll */
+    padding: 50px 15px;
 }
 
-/* Optional: full-width dropdown menu background */
-.navbar-collapse {
-    background-color: #007BFF; /* Blue for mobile menu */
-}
-
-.navbar-collapse .nav>li>a {
-    color: white; /* White text for menu links */
-}
-
-.navbar-collapse .nav>li>a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
-.title {
+/* Center paragraph inside tall section */
+.tall-section p {
     text-align: center;
 }
+
+/* Mobile menu full width and background */
+.navbar-collapse {
+    background-color: #0056b3; /* distinguishable background for dropdown */
+}
+
+.navbar-collapse .nav > li > a {
+    color: white;
+    text-align: center;
+}
+
+/* Optional: Hover effect for menu links */
+.navbar-collapse .nav > li > a:hover {
+    background-color: #004080;
