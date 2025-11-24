@@ -1,4 +1,19 @@
-.nav-bar {
-    background-color: 0000FF;
-    padding: 30px;
+/* Background color for the tall section */
+.tall-section {
+    background-color: #f0f0f0; /* Light grey background */
+    min-height: 1000px; /* Tall enough for scrolling */
+    padding: 20px;
+}
+
+/* Optional: full-width dropdown menu background */
+.navbar-collapse {
+    background-color: #007BFF; /* Blue for mobile menu */
+}
+
+.navbar-collapse .nav>li>a {
+    color: white; /* White text for menu links */
+}
+
+.navbar-collapse .nav>li>a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
