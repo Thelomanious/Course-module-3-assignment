@@ -25,13 +25,14 @@ body {
 
 /* Tall section styling */
 .tall-section {
-    background-color: #f0f0f0; /* distinguishable background */
+    background-color: #0000fF; /* distinguishable background */
     min-height: 1000px; /* tall enough to scroll */
     padding: 50px 15px;
 }
 
 /* Center paragraph inside tall section */
-.tall-section p {
+.tall-section p,
+.tall-section h1{
     text-align: center;
 }
 
